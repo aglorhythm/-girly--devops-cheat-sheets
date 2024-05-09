@@ -31,4 +31,4 @@ Let me know !
         \   |   /
         .-*-*-.       
       /   |   \
-        `-._.-'  @aglorythm                          
+        `-._.-'  @aglorhythm                          
