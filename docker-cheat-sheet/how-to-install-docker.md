@@ -73,4 +73,4 @@ sudo docker run hello-world
 
 Great job, you did it! 🎉 Now you have Docker installed on your Linux machine, ready to containerize your applications and set the stage for seamless deployments. Dive into the Docker world and start deploying your apps in style!
 
-Remember, every tech journey is unique and fabulous, just like you! 💕
+Remember, every tech journey is unique and fabulous, just like you! 💕 
