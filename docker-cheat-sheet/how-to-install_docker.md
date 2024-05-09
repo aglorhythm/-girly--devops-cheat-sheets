@@ -1,4 +1,4 @@
-# 🌸✨ Installing Docker on  (Ubuntu & Debian) - A Girly Guide ✨🌸
+# 🌸✨ Installing Docker on Linux (Ubuntu & Debian) - A Girly Guide ✨🌸
 
 Hello there, fabulous tech enthusiast! 🌟It's time to step in the world of containerization with Docker ? Fine! This guide will help you installing Docker on your Linux machine, that magical tool that lets you build, run, and manage containers like a tech diva! 💻🎀 Let's get started :)
 
@@ -74,3 +74,7 @@ sudo docker run hello-world
 Great job, you did it! 🎉 Now you have Docker installed on your Linux machine, ready to containerize your applications and set the stage for seamless deployments. Dive into the Docker world and start deploying your apps in style!
 
 Remember, every tech journey is unique and fabulous, just like you! 💕 
+
+## 🌟 Support
+
+If you find this inspiring or helpful, please consider starring this repository. Your support motivates me to continue documenting and sharing my journey!
