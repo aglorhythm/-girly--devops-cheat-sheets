@@ -14,17 +14,21 @@ Navigating the realms of Devops doesn't have to be painful. These cheat sheets t
 - **Gitlab CI/CD**
 
 ### 💖 Get Involved!
-[girly]-devOps-cheat-sheets is more than just a repository; it's a celebration of femininity and tech savviness. Whether you’re a seasoned coder or just starting out, I'm here to add some fun to your coding & technical sessions!
+**[Girly]-devOps-cheat-sheets** isn't a simple repository. It's a celebration of femininity and tech savviness. Whether you’re a passioned coder or just starting out, I'm here to add some fun to your coding & technical sessions!
 
 ### 💌 Want to contribute ? 
 Let me know !
 
-                                                  
-                                                  
+```plaintext                                                                                     
                                   .               
           o                       |   o           
  .-. .--. . .-. .  .   .-..-.  .-.|   .  .--. .-..
 (.-' |  | |(   )|  |  (  (   )(   |   |  |  |(   |
- `--''  `-| `-' `--|   `-'`-'  `-'`--' `-'  `-`-`|
+ `--''  `-| `-' `--|   `-'`-'  `-'`--' `-'  `-`-`| 
           ;        ;                          ._.'
-       `-'      `-'     @aglorythm                          
+       `-'      `-'     
+       
+        \   |   /
+        .-*-*-.       
+      /   |   \
+        `-._.-'  @aglorythm                          
