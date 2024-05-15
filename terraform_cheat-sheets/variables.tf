@@ -1,3 +1,8 @@
+# ===================================
+# Author: @aglorhythm / girlysheet.cloud ✿
+# Description: Here we define our variables. They can be used dynamically !
+# ===================================
+
 variable "azs" {
   description = "A list of availability zones in the region"
   type        = list(string)
