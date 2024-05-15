@@ -1,3 +1,8 @@
+# ===================================
+# Author: @aglorhythm / girlysheet.cloud ✿
+# Description: Here we define our variables. They can be used dynamically !
+# ===================================
+
 variable "instance_details" {
   description = "A list of maps containing details for each instance to be created."
   type = list(object({
