@@ -1,3 +1,10 @@
+# ===================================
+# Author: @aglorhythm / girlysheet.cloud ✿
+# Description: Creating an outputs.tf file is an excellent practice to 
+# expose important information about the resources you're managing.
+# These variables can be reused in other configuration files.
+# ===================================
+
 output "vpc_id" {
   value       = module.vpc.vpc_id
   description = "The ID of the VPC created."
