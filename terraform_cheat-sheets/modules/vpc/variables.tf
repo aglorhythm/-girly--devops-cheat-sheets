@@ -1,3 +1,8 @@
+# ===================================
+# Author: @aglorhythm / girlysheet.cloud ✿
+# Description: Here we define our variables. They can be used dynamically !
+# ===================================
+
 # The CIDR block for the VPC
 variable "cidr_block" {
   description = "The CIDR block for the subnets"
