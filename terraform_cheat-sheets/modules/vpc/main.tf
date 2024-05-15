@@ -1,5 +1,5 @@
 # ===================================
-# Author: @aglorhythm / girlysheet
+# Author: @aglorhythm / girlysheet.cloud ✿
 # Description: This module will handle VPC creation, subnets, and internet gateway setup.
 # ===================================
 
@@ -17,19 +17,19 @@ resource "aws_vpc" "my_aws_vpc" {
 
 # ---- Subnets -- >
 
-# Public - Create 3 subnets for zone a / b /c
+# Public - Create 3 subnets for availability zones a / b /c
 resource "aws_subnet" "public_subnet" {
-  count             = length(var.azs)
+  count             = length(var.azs) # ✿ here you specifies how many times you need to create this resource 
   vpc_id            = aws_vpc.my_aws_vpc.id
   cidr_block        = cidrsubnet(var.cidr_block, 8, count.index)
-  availability_zone = var.azs[count.index]
+  availability_zone = var.azs[count.index] # ✿ iterates through our variable azs (availability zones)
   map_public_ip_on_launch = true
   tags = {
-    Name = "public-subnet-${var.azs[count.index]}"
+    Name = "public-subnet-${var.azs[count.index]}" # ✿ Gives a tag name for each zone in our azs variable
   }
 }
 
-# Private - Create 3 subnets for zone a / b /c
+# Private - Create 3 subnets for availability zones a / b /c
 resource "aws_subnet" "private_subnet" {
   count             = length(var.azs)
   vpc_id            = aws_vpc.my_aws_vpc.id
